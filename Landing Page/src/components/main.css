@@ -1,0 +1,84 @@
+.responsive{
+    background-image: url('https://img.freepik.com/premium-vector/realistic-white-smartphone-mockup-with-world-hologram-earth-communication-concept-background_4974-205.jpg');;
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+}
+.image-center{
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
+    width: 100%;
+    height:700px;
+    padding-top: 110px;
+}
+@media screen and (max-width: 720px) {
+    .q-answer{
+        font-size: 5vw;
+        font-weight: normal;
+        padding: 0px;
+    }
+    .q-title{
+        font-size: 6vw;
+        font-weight: bolder;
+        padding: 0px 0px 0px 20px;
+    }
+    .q-block{
+        padding: 0px;
+    }
+    .image-title{
+        font-size: 5vw;
+    }
+    .five-g-text{
+        font-size: 8vw;
+        font-weight: bolder;
+        color: blue;
+    }
+    .image-body{
+        font-size: 4vw;
+    }
+    .image-center{
+        position: relative;
+        text-align: center;
+        vertical-align: baseline;
+        width: 100%;
+        height:660px;
+        padding-top: 190px;
+    }
+}
+@media screen  and (min-width: 720px)  {
+        
+    .q-block{
+        padding: 20px;
+    }
+    .q-title{
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+    .q-answer{
+        font-size: 2vw;
+        font-family: sans-serif;
+        text-align: justify;
+    }
+        
+    .image-title{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .five-g-text{
+        font-size: 9vw;
+        font-weight: bold;
+        color: blue;
+    }
+    .image-body{
+        font-size: 2vw;
+    }
+    .image-center{
+        position: relative;
+        text-align: center;
+        vertical-align: baseline;
+        width: 100%;
+        height:700px;
+        padding-top: 110px;
+    }
+}
